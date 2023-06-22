@@ -22,7 +22,7 @@ h6,
 
 .my-6 {
     margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 0rem;
 }
 
 .back-to-top {
@@ -46,6 +46,12 @@ h6,
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
+}
+
+/*** Video ***/
+
+.video {
+    min-width: 100%;
 }
 
 
