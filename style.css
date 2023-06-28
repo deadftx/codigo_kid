@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+
+
+
 :root {
     --primary: #000000;
     --secondary: #0e19ea;
@@ -13,6 +16,7 @@
     bottom: 30px;
     z-index: 99;
 }
+
 
 h1,
 .h1,
