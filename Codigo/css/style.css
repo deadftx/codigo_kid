@@ -446,3 +446,26 @@ h6,
 .copyright a:hover {
     color: var(--light);
 }
+
+.videoabout {
+    flex: 0 0 auto;
+    max-width: 350px;
+}
+
+@media (max-width: 700px) {
+    .videoabout {
+        max-width: 300px;
+        overflow: hidden;
+    }
+}
+
+.videocarousel {
+    padding-left: 25%;
+}
+
+@media (max-width: 700px) {
+    .videocarousel {
+        padding-left: 0;
+        text-align: center;
+    }
+}
