@@ -17,11 +17,10 @@ h6,
 
 .py-6 {
     padding-top: 6rem;
-    padding-bottom: 6rem;
 }
 
 .my-6 {
-    margin-top: 6rem;
+    margin-top: 0rem;
     margin-bottom: 0rem;
 }
 
@@ -446,8 +445,6 @@ h6,
 .copyright a:hover {
     color: var(--light);
 }
-<<<<<<< HEAD
-=======
 
 .videoabout {
     flex: 0 0 auto;
@@ -471,4 +468,25 @@ h6,
         text-align: center;
     }
 }
->>>>>>> e40f875b9e063e7609958ab9cfad07f6e557a171
+
+
+/** pagina cursos **/
+
+.bodycursos {
+    overflow: hidden;
+}
+
+@media (max-width: 700px) {
+    .bodycursos {
+        overflow: auto;
+    }
+}
+
+.containercursos {
+    max-width: 755px;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 15%;
+}
