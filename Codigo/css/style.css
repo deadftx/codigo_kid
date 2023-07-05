@@ -81,7 +81,7 @@ h6,
 
 .btn-square,
 .btn-sm-square,
-.btn-lg-square {
+.btn-lg-square {xto
     padding: 0;
     display: flex;
     align-items: center;
@@ -491,6 +491,7 @@ h6,
     padding-bottom: 15%;
 }
 
+<<<<<<< HEAD
 .end {
     margin-top: 100px;
     text-align: center;
@@ -499,3 +500,105 @@ h6,
 img {
     margin-top: 40px;
 }
+=======
+<<<<<<< HEAD
+.arraste {
+    position:fixed;
+	width:60px;
+	height:60px;
+	top:90%;
+	right:40%;
+  z-index:100;
+}
+
+.arraste2 {
+    position:fixed;
+	width:60px;
+	height:60px;
+	top:90%;
+	right:60%;
+  z-index:100;
+}
+
+.arrastelado {
+    color: #FFF;
+    position:fixed;
+	width:200px;
+	height:60px;
+	top:92%;
+	right:43%;
+  z-index:100;
+}
+=======
+
+
+
+.quadrado{
+    flex: 0 0 auto;
+    width: 66.66667%;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(252, 241, 95, 0.493);
+
+}
+
+.texto{
+    color: #fff;
+}
+
+.batata{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    padding-bottom: 5px;
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    position: relative;
+    background-color: rgba(252, 241, 95, 0.493);
+    width: 66.66667%;
+    border-radius: 10px;
+    text-align: center;
+}
+.titulocurso{
+    margin-top: 150px;
+    color: #FFF;
+}
+
+.flex{
+    display:flex;
+    flex-direction: row;
+}
+
+.balao{
+    margin-top: 50px;
+    background-color: rgba(252, 95, 95, 0.493);
+    width: 33.3333%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.balao1{
+    margin-top: 50px;
+    background-color: rgba(95, 252, 218, 0.493);
+    width: 33.3333%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.balao2{
+    margin-top: 50px;
+    background-color: rgba(132, 252, 95, 0.493);
+    width: 33.3333%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+>>>>>>> bc6735d4e5aa78cd311f47d315b8736df44d9a09
+>>>>>>> 1747313edffef9fbebf61c05bf7fd6ae8bda4f8d

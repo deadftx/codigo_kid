@@ -47,7 +47,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #545454;
-    background-color: #eaa53641;
+    background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -95,18 +95,6 @@ h3,
     font-weight: 700;
     line-height: 1.2;
     color: #1e1916;
-}
-
-.batata{
-    margin: 0;
-    color: #ffffff;
-    padding-bottom: 60px;
-    padding-left: 15px;
-    font-weight: 700;
-    font-family: "Playfair Display", serif;
-    line-height: 1.2;
-    position: relative;
-
 }
 
 @media (max-width: 700px) {
@@ -539,7 +527,6 @@ progress {
 .img-fluid {
     max-width: 100%;
     height: auto;
-    background-size: cover;
 }
 .img-thumbnail {
     padding: 0.25rem;
