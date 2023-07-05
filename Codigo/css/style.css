@@ -490,3 +490,12 @@ h6,
     margin-left: auto;
     padding-bottom: 15%;
 }
+
+.end {
+    margin-top: 100px;
+    text-align: center;
+}
+
+img {
+    margin-top: 40px;
+}
