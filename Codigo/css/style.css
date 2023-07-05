@@ -490,3 +490,31 @@ h6,
     margin-left: auto;
     padding-bottom: 15%;
 }
+
+.arraste {
+    position:fixed;
+	width:60px;
+	height:60px;
+	top:90%;
+	right:40%;
+  z-index:100;
+}
+
+.arraste2 {
+    position:fixed;
+	width:60px;
+	height:60px;
+	top:90%;
+	right:60%;
+  z-index:100;
+}
+
+.arrastelado {
+    color: #FFF;
+    position:fixed;
+	width:200px;
+	height:60px;
+	top:92%;
+	right:43%;
+  z-index:100;
+}
