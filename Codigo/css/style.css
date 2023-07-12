@@ -458,6 +458,21 @@ h6,
     }
 }
 
+.videoabout1 {
+    flex: 0 0 auto;
+    max-width: 350px;
+    margin-left: 140px;
+}
+
+@media (max-width: 700px) {
+    .videoabout1 {
+        max-width: 300px;
+    margin-left: 0px;
+
+    }
+}
+
+
 .videocarousel {
     padding-left: 25%;
 }
@@ -614,5 +629,5 @@ img {
     margin-bottom: 5%;
 }
   
-  
+
   
