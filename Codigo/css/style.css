@@ -580,11 +580,10 @@ img {
     margin-top: 50px;
     background-color: rgba(252, 95, 95, 0.493);
     width: 33.3333%;
-    padding: 0px;
+    padding: 20px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
     margin-right: 40px;
+    text-align: center;
 }
 .balao1{
     margin-top: 50px;
@@ -592,9 +591,8 @@ img {
     width: 33.3333%;
     padding: 20px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
     margin-left: 0px;
+    text-align: center;
 }
 .balao2{
     margin-top: 50px;
@@ -602,9 +600,8 @@ img {
     width: 33.3333%;
     padding: 20px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
     margin-left: 40px;
+    text-align: center;
 }
 
 
@@ -613,6 +610,7 @@ img {
     margin-left: 6%;
     margin-bottom: 5%;
 }
-  
-  
+.description{
+    color: #FFF;
+}
   
