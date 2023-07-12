@@ -81,7 +81,7 @@ h6,
 
 .btn-square,
 .btn-sm-square,
-.btn-lg-square {xto
+.btn-lg-square {
     padding: 0;
     display: flex;
     align-items: center;
@@ -478,7 +478,7 @@ h6,
 
 @media (max-width: 700px) {
     .bodycursos {
-        overflow: auto;
+        overflow: hidden;
     }
 }
 
@@ -491,22 +491,27 @@ h6,
     padding-bottom: 15%;
 }
 
-<<<<<<< HEAD
+
 .end {
-    margin-top: 100px;
+    position: relative;
+    font-family: 'Noto Serif Makasar', serif;
     text-align: center;
+    font-weight: bold
+    
 }
 
 img {
     margin-top: 40px;
+    
 }
-=======
-<<<<<<< HEAD
+
+
+
 .arraste {
     position:fixed;
 	width:60px;
 	height:60px;
-	top:90%;
+	top:86%;
 	right:40%;
   z-index:100;
 }
@@ -515,21 +520,21 @@ img {
     position:fixed;
 	width:60px;
 	height:60px;
-	top:90%;
+	top:86%;
 	right:60%;
   z-index:100;
 }
 
 .arrastelado {
+    
     color: #FFF;
     position:fixed;
 	width:200px;
 	height:60px;
-	top:92%;
+	top:93%;
 	right:43%;
   z-index:100;
 }
-=======
 
 
 
@@ -571,13 +576,15 @@ img {
 }
 
 .balao{
+    
     margin-top: 50px;
     background-color: rgba(252, 95, 95, 0.493);
     width: 33.3333%;
-    padding: 20px;
+    padding: 0px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    margin-right: 40px;
 }
 .balao1{
     margin-top: 50px;
@@ -587,7 +594,7 @@ img {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 .balao2{
     margin-top: 50px;
@@ -597,8 +604,13 @@ img {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
->>>>>>> bc6735d4e5aa78cd311f47d315b8736df44d9a09
->>>>>>> 1747313edffef9fbebf61c05bf7fd6ae8bda4f8d
+
+.circulo {
+
+}
+  
+  
+  

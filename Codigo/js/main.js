@@ -16,6 +16,9 @@
     new WOW().init();
 
 
+  
+      
+    
     // Fixed Navbar
     $('.fixed-top').css('top', $('.top-bar').height());
     $(window).scroll(function () {

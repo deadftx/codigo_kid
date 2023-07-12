@@ -78,6 +78,7 @@ h6,
     font-weight: 700;
     line-height: 1.2;
     color: #1e1916;
+    font-weight: bold
 }
 .h7{
     margin-top: 0;
@@ -6836,6 +6837,12 @@ fieldset:disabled .btn {
 }
 .bg-light {
     background-color: #fdf5eb !important;
+}
+.bg-counter {
+    background-color: #e6b475 !important;
+}
+.bg-end {
+    background-color: #fbd6a9c9 !important;
 }
 .bg-dark {
     background-color: #1e1916 !important;
