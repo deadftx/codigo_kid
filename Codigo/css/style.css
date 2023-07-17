@@ -53,6 +53,12 @@ h6,
     min-width: 100%;
 }
 
+@media (max-width: 700px) {
+.video {
+    min-width: 100%;
+    min-height: 900px;
+}
+}
 
 /*** Button ***/
 .btn {
@@ -488,12 +494,10 @@ h6,
 /** pagina cursos **/
 
 .bodycursos {
-    overflow: hidden;
 }
 
 @media (max-width: 700px) {
     .bodycursos {
-        overflow: hidden;
     }
 }
 
@@ -506,6 +510,13 @@ h6,
     padding-bottom: 15%;
 }
 
+@media (max-width: 700px) {
+    .containercursos {
+        max-height: 80%;
+        max-width: 90%;
+        margin-bottom: 95%;
+    }
+}
 
 
 img {
@@ -537,14 +548,35 @@ img {
     
     color: #FFF;
     position:fixed;
-	width:200px;
+	width:10%;
 	height:60px;
-	top:93%;
+	top:90%;
 	right:43%;
   z-index:100;
 }
 
 
+@media (max-width: 700px)
+{
+
+
+    .arraste {
+        position: fixed;
+        margin-top: -20% !important;
+        padding-left: 15%;
+    }
+
+    .arraste2 {
+        position: fixed;
+        margin-top: -20% !important;
+        padding-right: 25%;
+    }
+
+    .arrastelado {
+        position: fixed;
+        margin-top: -20% !important;
+    }
+}
 
 .quadrado{
     flex: 0 0 auto;
@@ -554,6 +586,22 @@ img {
     padding: 10px;
     background-color: rgba(252, 241, 95, 0.493);
 
+}
+
+@media (max-width: 700px) {
+    .quadrado {
+        padding: 3px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .titulocurso{
+        margin-top: 150px;
+        color: #FFF;
+    }
+    .batata {
+        margin-left: 17% !important;
+    }
 }
 
 .texto{
@@ -584,6 +632,7 @@ img {
     flex-direction: row;
 }
 
+
 .balao{
     
     margin-top: 50px;
@@ -612,6 +661,19 @@ img {
     margin-left: 40px;
     text-align: center;
 }
+
+@media (max-width: 700px) {
+    .flex{
+        margin: -10px;
+    }
+    .balao{
+        margin-right: 10px;
+    }
+    .balao2{
+        margin-left: 10px;
+    }
+}
+
 
 
 .circulo {
@@ -676,4 +738,30 @@ img {
         
     }
 
+}
+
+
+@media (max-width:700px) {
+    .logo2 {
+        max-width: 120px !important;
+        margin-top:  -3%;
+    }
+}
+
+
+.icons {
+    max-height: 43px;
+    max-width: 48px;
+    margin-top: -7%;
+    margin-left: 35%;
+}
+
+@media (max-width:700px) {
+    .icons {
+        max-width: -5%;
+        max-height: -5%;
+        margin-left: 0%;
+        margin-bottom: 13%;
+        position: relative !important;
+    }
 }
