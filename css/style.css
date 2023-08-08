@@ -207,7 +207,7 @@ h6,
     position: relative;
     width: 80px;
     height: 80px;
-    margin: -40px auto 0 auto;
+    margin: -120px auto 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -467,7 +467,7 @@ h6,
 .videoabout1 {
     flex: 0 0 auto;
     max-width: 350px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 @media (max-width: 700px) {
@@ -507,7 +507,7 @@ h6,
     padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 }
 
 @media (max-width: 700px) {
@@ -520,7 +520,6 @@ h6,
 
 
 img {
-    margin-top: 40px;
     
 }
 
@@ -764,4 +763,9 @@ img {
         margin-bottom: 13%;
         position: relative !important;
     }
+}
+
+
+.imgcarousel {
+    min-width: 100%;
 }
